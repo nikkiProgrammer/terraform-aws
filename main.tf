@@ -1,6 +1,6 @@
 provider "aws"{
   region=var.region
-  profile=var.profile
+  #profile=var.profile
 }
 
 resource "aws_instance" "my_vm" {
